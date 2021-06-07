@@ -34,6 +34,6 @@ steps:
     ArtifactName: 'drop'
     publishLocation: 'Container'
     
- steps:
+steps:
 - task: Kubernetes@0
   displayName: 'kubectl '
