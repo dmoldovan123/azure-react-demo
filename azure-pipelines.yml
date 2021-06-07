@@ -33,3 +33,7 @@ steps:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'drop'
     publishLocation: 'Container'
+    
+ steps:
+- task: Kubernetes@0
+  displayName: 'kubectl '
