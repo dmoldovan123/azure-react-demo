@@ -40,3 +40,4 @@ steps:
   inputs:
     app_location: '/staticweb'
     api_location: '/api/staticweb'
+    skip_app_build: true
