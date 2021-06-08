@@ -36,10 +36,7 @@ steps:
     
 - task: Kubernetes@0
   displayName: 'kubectl '
-- task: Bash@3
+- task: AzureStaticWebApp@0
   inputs:
-    targetType: 'inline'
-    script: |
-      # Write your commands here
-      
-      echo 'Install NodejS and react'
+    app_location: '/staticweb'
+    api_location: '/api/staticweb'
