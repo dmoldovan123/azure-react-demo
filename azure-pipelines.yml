@@ -36,7 +36,3 @@ steps:
     
 - task: Kubernetes@0
   displayName: 'kubectl '
-- task: Docker@2
-  inputs:
-    command: 'buildAndPush'
-    Dockerfile: '**/Dockerfile'
